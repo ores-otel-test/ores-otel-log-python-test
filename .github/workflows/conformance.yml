@@ -50,5 +50,4 @@ jobs:
           PYTHONPATH: src
         run: python -m unittest discover -s tests -v
       - name: Record exact source
-        run: printf '%s %s %s %s
-' ores-otel-log-python-test python "${{ matrix.role }}" "${{ matrix.ref }}"
+        run: echo ores-otel-log-python-test python "${{ matrix.role }}" "${{ matrix.ref }}"
