@@ -9,6 +9,10 @@
     "lifecycle",
     "concurrency"
   ],
+  "exactHeads": {
+    "canonical": "05f14768232b770dfc2bbe03f27b388f5a701c74",
+    "legacy": "05f14768232b770dfc2bbe03f27b388f5a701c74"
+  },
   "language": "python",
   "name": "ores-otel-log-python-test",
   "runtime": "CPython 3.11-3.14",
@@ -16,7 +20,7 @@
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "status": "planned",
+  "status": "created",
   "testCommand": "python -m unittest discover -v",
   "toolchain": "uv or pip"
 }
