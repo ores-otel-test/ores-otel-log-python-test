@@ -1,7 +1,6 @@
 # ores-otel-log-python-test
 
-Exact-head **python** conformance harness for `ores-otel/ores.otel.log` and `ORESoftware/next-loggers.ts`.
+Exact-head conformance harness for **python**.
 
-Native verification command: `python -m unittest discover -v`.
-
-Promotion requires both sources to pass at explicit 40-character commit SHAs.
+This repository tests both `ores-otel/ores.otel.log` and `ORESoftware/next-loggers.ts` using explicit commit SHAs.
+The required native command is recorded in `conformance.json`: `python -m unittest discover -v`.
