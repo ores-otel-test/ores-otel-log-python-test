@@ -1,0 +1,15 @@
+{
+  "language": "python",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-python-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
+  "runtime": "CPython 3.11-3.14",
+  "sources": [
+    "ores-otel/ores.otel.log",
+    "ORESoftware/next-loggers.ts"
+  ],
+  "status": "seeded",
+  "testCommand": "python -m unittest discover -v",
+  "toolchain": "uv or pip"
+}
