@@ -1,27 +1,15 @@
 {
-  "automatic_instrumentation": false,
-  "capabilities": [
-    "record-schema",
-    "api-manifest",
-    "context-isolation",
-    "otel-explicit",
-    "no-monkey-patching",
-    "supabase-client",
-    "lifecycle",
-    "concurrency"
-  ],
-  "exact_heads": {
-    "canonical": "be37556eeeaa77c2fc57feda96239b69cca8e9ac",
-    "legacy": "be37556eeeaa77c2fc57feda96239b69cca8e9ac"
-  },
   "language": "python",
-  "no_monkey_patching": true,
-  "repository": "ores-otel-test/ores-otel-log-python-test",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-python-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
   "runtime": "CPython 3.11-3.14",
-  "schema_version": 1,
   "sources": [
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "test_command": "python -m unittest discover -s sdk/python/tests -v"
+  "status": "seeded",
+  "testCommand": "python -m unittest discover -v",
+  "toolchain": "uv or pip"
 }
